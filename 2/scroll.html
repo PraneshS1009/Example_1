@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: magenta;
+        }
+        .main{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+        .scroll{
+            width: 390px;
+            height: 500px;
+            background-color: aliceblue;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            border: 1px solid black;
+            padding: 2rem;
+            float: left;
+            background: #F5F5F5;
+            margin-bottom: 25px;
+        }
+
+        #style-2::-webkit-scrollbar
+        {
+            width: 12px;
+            margin-left: 10px;
+        }
+
+        #style-2::-webkit-scrollbar-thumb
+        {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #c2baba;
+        }
+        p{
+            color: black;
+            line-height: 35px;
+            letter-spacing: 1.5px;
+            text-align: justify;
+        }
+        .accept{
+            width: 300px;
+            height: 50px;
+            background-color: greenyellow;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            color: magenta;
+            font-weight: 800;
+            cursor: pointer;
+            opacity: .1;
+            pointer-events: none;
+            position: fixed;
+            top: 500px;
+        }
+        span{
+            width: 350px;
+            height: 450px;
+            position: fixed;
+            overflow-y: scroll;
+            top: 10px;
+            padding: 1rem;
+        }
+        .show1{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="scroll">
+            <span  id="style-2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti, asperiores perferendis fugit alias porro sed sint excepturi repudiandae officia. Inventore dolore sequi at ipsa! Architecto vitae facilis quas quo possimus dolore soluta? Necessitatibus voluptatum at similique et! Animi iusto placeat facilis temporibus explicabo voluptatibus iure expedita, ipsa quos aut similique amet incidunt illo libero repellendus beatae neque eum, nulla, qui dignissimos fugiat vel tempore? Numquam blanditiis voluptatum laborum iure, velit id deleniti, quas veritatis consequatur placeat reiciendis iusto, nam voluptatibus assumenda nisi nesciunt atque ea nemo. Quibusdam odit delectus vero id, laboriosam sunt laudantium voluptatem debitis in adipisci laborum deleniti aspernatur rem omnis eveniet. Asperiores eaque atque sapiente animi, voluptatum et! Eligendi, totam suscipit consequuntur vero quisquam asperiores, ea nostrum nam illo commodi doloremque repellat, est porro tempora praesentium fugiat! Cumque itaque recusandae omnis, commodi voluptate, excepturi tempora consequuntur est tenetur expedita accusantium nam nemo odio porro eum distinctio doloribus minus velit, quis officiis facere consequatur corporis? Dignissimos error amet suscipit iure aliquam laudantium cupiditate neque asperiores ipsa eaque, debitis molestiae reiciendis! Earum consequuntur eveniet animi illum est, commodi quos id et architecto vitae at amet ratione corporis pariatur veniam ut ipsum quidem, aperiam non. Neque quas perspiciatis doloribus accusantium quod adipisci? Magnam delectus dolore, incidunt adipisci non temporibus deleniti rem quibusdam ad sed molestias natus corporis eligendi tenetur. Enim dolores pariatur qui amet autem in tempora voluptatem? Cum fugiat quaerat fugit ad necessitatibus recusandae nam assumenda libero. Perferendis similique distinctio at doloremque, dolorem placeat, quis accusantium accusamus aspernatur eum dolore? Praesentium animi delectus, repellendus facilis temporibus omnis laudantium cupiditate a eligendi explicabo. Veniam ullam, quia earum laboriosam placeat neque adipisci quasi possimus in hic quas nisi, eos error modi sequi eius illum blanditiis nobis, nesciunt nostrum numquam ipsum? Quae, sit! Neque qui ipsa itaque quo nam! Minus, dolores aperiam. Delectus maxime natus veritatis. Omnis nobis saepe tempora neque similique corporis vitae deleniti! Dolores optio reprehenderit perspiciatis eos. Tenetur quos at repellat voluptatum perspiciatis aut consectetur sit! Ipsum sapiente quas at. Dolorum, aspernatur iste porro, perspiciatis quis voluptates nemo praesentium dignissimos, modi est facere? Eum sequi eius repellat maxime, vitae sint ducimus ullam? Et quidem necessitatibus mollitia fuga, velit, excepturi assumenda dolorem animi aspernatur error praesentium nulla esse, sunt iusto fugit dolor libero beatae minus ullam quis voluptatem autem voluptas facilis harum. Temporibus quasi vel ex perferendis distinctio omnis iure molestias vero pariatur doloribus veniam enim necessitatibus recusandae neque perspiciatis accusantium placeat cum cupiditate, officiis voluptatem animi consequatur. Nulla soluta beatae laborum deleniti a in. Earum voluptate, consequatur expedita a temporibus et facere ab maxime accusamus? Laudantium corporis vero facilis laborum id veritatis, nostrum quisquam ab debitis exercitationem ipsa nam fugit blanditiis. Eius similique, quis necessitatibus quibusdam unde culpa qui hic repudiandae nisi minima autem a odit tempora. Possimus sed reprehenderit ipsam. Magni unde quam impedit eos quae quibusdam deleniti esse autem voluptate expedita enim eum, accusantium libero magnam ipsum atque incidunt rerum molestiae quia, sapiente animi ut ea in ad? Excepturi, facere ut tempore totam voluptate doloribus. Eaque.</p></span>
+            <button class="accept">Accept</button>
+        </div>
+    </div>
+    <script src="scroll.js"></script>
+</body>
+</html>

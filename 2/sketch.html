@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkmagenta;
+        }
+        .main{
+            display: grid;
+            justify-content: center;
+        }
+        .inner{
+            border:40px solid red;
+            width: 800px;
+            height: 500px;
+            border-radius: 20px
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="inner">
+            <canvas class="draw" style="width: 800px; height: 500px;
+            background-color: white; border: none;"></canvas>
+        </div>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>
